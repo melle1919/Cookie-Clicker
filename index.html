@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styllee.css">
+    <link rel=" shortcut icon" type="image/png" href="https://orteil.dashnet.org/cookieclicker/img/favicon.ico">
+    <title>Cookie Clicker!</title>
+
+<body>
+    <div class="texts">
+        <h1 class="title">Cookie Clicker!</h1>
+        <h1 class="cookie__text" id="totalCookies">Cookies: 0</h1>
+    </div>
+
+    <!--ALL THE BUTTONS FOR UPGRADES-->
+    <div id="buttonUpgrades" class="buttonStyle">
+
+        <button id="upgrade1id" class="upgrades, buttons">
+
+            <h2>Auto Clicker</h2>
+            <h3>Gives you more cookies per click!</h3>
+            <h4 id="price__button__1">Price: </h4>
+        </button>
+
+        <button id="upgrade2id" class="upgrades, buttons">
+
+            <h2>Small Factory</h2>
+            <h3>Gives you 3 more cookie per second!</h3>
+            <h4 id="price__button__2">Price: </h4>
+        </button>
+
+        <button id="upgrade3id" class="upgrades, buttons">
+            <h2> Big Factory</h2>
+            <h3>Gives 10 more cookies per second!</h3>
+            <h4 id="price__button__3">Price: </h4>
+        </button>
+
+        <button id="upgrade4id" class="upgrades, buttons">
+            <h2>Machine</h2>
+            <h3>Gives 25 more cookies per second!</h3>
+            <h4 id="price__button__4">Price: </h4>
+        </button>
+
+        <button id="upgrade5id" class="upgrades, buttons">
+            <h2>Small Farmland</h2>
+            <h3>Gives 75 more cookies per second!</h3>
+            <h4 id="price__button__5">Price: </h4>
+        </button>
+
+        <button id="upgrade6id" class="upgrades, buttons" >
+            <h2>Small Farmland</h2>
+            <h3>Gives 150 more cookies per second!</h3>
+            <h4 id="price__button__6">Price: </h4>
+        </button>
+
+        <button id="upgrade7id" class="upgrades, buttons">
+            <h2>Small Farmland</h2>
+            <h3>Gives you 10,000 cookies every 3 minute!</h3>
+            <h4 id="price__button__7">Price: </h4>
+        </button>
+
+        <button id="upgrade8id" class="upgrades, buttons">
+            <h2>Small Farmland</h2>
+            <h3>Gives you 10,000 cookies every 3 minute!</h3>
+            <h4 id="price__button__8">Price: </h4>
+        </button>
+
+        <button id="upgrade9id" class="upgrades, buttons">
+            <h2>Small Farmland</h2>
+            <h3>Gives you 10,000 cookies every 3 minute!</h3>
+            <h4 id="price__button__9">Price: </h4>
+        </button>
+
+    </div>
+
+    <div class="cookie__button">
+
+        <img class="cookie__button" id="cookie__button__id" onclick="bakeCookie()" onclick="checkIfWeCanBuyUpgrade()"src="kaka.svg">
+    </div>
+
+    <!--COOKIES PER SECOND-->
+    <div>
+        <h1 class="current_cookies_per_second" id="cps">Cookies Per Second: </h1>
+    </div>  
+    <script src="ccklicker.js"></script>
+</body>
+
+</html>
