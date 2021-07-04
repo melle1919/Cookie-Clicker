@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-overflow:visible
+}
+.title {
+	font-family: 'Pangolin', cursive;
+	font-size: 60px;
+	text-align: center;
+	position: relative;
+}
+
+.cookie__text {
+	font-family: 'Pangolin', cursive;
+	text-align: center;
+	position: relative;
+	margin-top: -30px;
+	font-size: 45px;
+}
+
+.current_cookies_per_second {
+	font-family: 'Pangolin', cursive;
+	text-align: center;
+	position: relative;
+	margin-top: -30px;
+	font-size: 25px;
+}
+
+.cookie__button {
+	justify-content: center;
+	display: flex;
+	position: relative;
+	margin-top: -500px;
+	transition: all 0.2s ease;
+}
+
+.cookie__button:active {
+	transform: translateY(5px);
+}
+
+#cookie__button__id h2 {
+	font-size: 25px;
+}
+
+h3,
+h4 {
+	font-size: 15px;
+}
+
+h2,
+h3,
+h4 {
+	margin: 0.00001px;
+	font-family: cursive;
+}
+
+.buttonStyle{
+	width: 300px;
+}
+
+.buttons {
+	border-radius: 6px;
+	background: #1b1b1b;
+	color: #ffffff;
+	border: solid 1px #ffffff;
+	height: 100px;
+	width: 280px;
+	margin: 0px;
+	outline: none;
+	transition: all 0.3s ease;
+}
+
+.upgrades {
+	overflow: auto;
+	height: 1000px;
+	width: 300px;
+}
+
+button:hover {
+	transition: all 0.5s;
+	background: #ffffff;
+	border: solid 1px #ffffff;
+	color: #1b1b1b;
+}
+/*Button*/
+
+
+
+body {
+	user-select: none;
+}
+
+/*Animation*/
+html,
+body {
+	background-image: linear-gradient(-45deg, #afecf7, #0a3e83);
+	width: 100%;
+	height: 98%;
+	background-size: 400% 400%;
+	position: relative;
+	animation: change 20s ease-in infinite;
+}
+
+@keyframes change {
+	0% {
+		background-position: 0 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0 50%;
+	}
+}
+/*Animation end*/
